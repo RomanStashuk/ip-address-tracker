@@ -1,0 +1,39 @@
+{
+  "name": "ip-address-tracker",
+  "version": "1.0.0",
+  "description": "An app that allows you to track and pull information from any IP address",
+  "private": true,
+  "license": "ISC",
+  "author": "RomanStashuk <romanstashuk1@gmail.com> (https://github.com/RomanStashuk)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanStashuk/ip-address-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RomanStashuk/ip-address-tracker/issues"
+  },
+  "homepage": "https://github.com/RomanStashuk/ip-address-tracker#readme",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "stylelint": "stylelint \"src/**/*{.css,.scss}\"",
+    "stylelint:fix": "npm run stylelint --fix",
+    "eslint": "eslint \"src/**/*.js\"",
+    "eslint:fix": "npm run eslint --fix",
+    "lint": "npm run eslint && npm run stylelint",
+    "prettify": "prettier --write \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "parcel": "^2.8.3",
+    "stylelint": "^15.2.0",
+    "stylelint-config-recommended-scss": "^9.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
