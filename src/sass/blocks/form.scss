@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form__input {
+  width: 100%;
+  max-width: 500px;
+  height: $input-height;
+  padding: 0 20px;
+  border: 1px solid transparent;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  transition-duration: 0.2s;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $black;
+    border-right: none;
+    cursor: text;
+  }
+
+  &::placeholder {
+    color: $gray;
+  }
+}
+
+.form__submit {
+  height: $input-height;
+  padding: 0 26px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  outline: none;
+  color: white;
+  background: url('../img/icon-arrow.svg') center no-repeat $black;
+  transition-duration: 0.2s;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: darken($gray, 20%);
+  }
+
+  &:active {
+    background-color: $gray;
+  }
+}

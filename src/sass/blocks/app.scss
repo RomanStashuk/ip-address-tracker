@@ -1,0 +1,35 @@
+.app {
+  // position: relative;
+}
+
+.app__top-part {
+  height: $top-part-height--mobile;
+  padding-top: $base-vertical-proportion--mobile;
+  text-align: center;
+  background: url(../img/bg.jpg) center / cover no-repeat #061c72;
+
+  @include for-tablet-up {
+    height: $top-part-height;
+    padding-top: $base-vertical-proportion;
+  }
+}
+
+.app__title {
+  margin: 0;
+  font-size: $base-vertical-proportion--mobile;
+  line-height: 1;
+  font-weight: 500;
+  color: white;
+
+  @include for-tablet-up {
+    font-size: $base-vertical-proportion;
+  }
+}
+
+.app__form {
+  margin-top: $base-vertical-proportion--mobile;
+
+  @include for-tablet-up {
+    margin-top: $base-vertical-proportion;
+  }
+}

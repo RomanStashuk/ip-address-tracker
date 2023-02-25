@@ -1,0 +1,12 @@
+@import './base/normalize.css';
+
+@import './base/variables';
+@import './base/mixins';
+@import './base/global';
+
+// Blocks
+@import './blocks/page';
+@import './blocks/app';
+@import './blocks/form';
+@import './blocks/info';
+@import './blocks/map';
