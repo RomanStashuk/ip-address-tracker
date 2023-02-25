@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="./img/favicon.png">
   <title>IP Address Tracker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +13,43 @@
   <link rel="stylesheet" href="./sass/style.scss">
 </head>
 
-<body>
-  <header class="container"></header>
+<body class="app">
+
+  <section class="app__top-part">
+    <div class="container">
+      <h1 class="app__title">IP Address Tracker</h1>
+      <form action="" class="app__form form" autocomplete="off">
+        <label class="visually-hidden" for="ip-address"></label>
+        <input type="text" class="form__input" id="ip-address" placeholder="Search for any IP address or fomain">
+        <button type="submit" class="form__submit" aria-label="search address"></button>
+      </form>
+    </div>
+  </section>
+
+  <section class="app__info info">
+    <h2 class="visually-hidden">Information about IP address</h2>
+    <ul class="info__list">
+      <li class="info__list-item">
+        <h3 class="info__title">IP address</h3>
+        <p class="info__text">3428476239487</p>
+      </li>
+      <li class="info__list-item">
+        <h3 class="info__title">Location</h3>
+        <p class="info__text">dafasdfasdf</p>
+      </li>
+      <li class="info__list-item">
+        <h3 class="info__title">Timezone</h3>
+        <p class="info__text">asdfasdf</p>
+      </li>
+      <li class="info__list-item">
+        <h3 class="info__title">ISP</h3>
+        <p class="info__text">UTCdasfasf</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="map"></section>
+
   <script src="./index.js"></script>
 </body>
 
