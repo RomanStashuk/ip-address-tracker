@@ -22,13 +22,16 @@
     "eslint": "eslint \"src/**/*.js\"",
     "eslint:fix": "npm run eslint --fix",
     "lint": "npm run eslint && npm run stylelint",
-    "prettify": "prettier --write \"src/**/*.js\""
+    "prettify": "prettier --write \"src/**/*.js\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
     "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.3",
     "stylelint": "^15.2.0",
     "stylelint-config-recommended-scss": "^9.0.1"
