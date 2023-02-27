@@ -39,8 +39,7 @@ Users can:
 
 - Semantic HTML5 markup
 - Mobile-first workflow
-- [Leaflet](https://leafletjs.com/) - Open-source JavaScript library
-for mobile-friendly interactive maps
+- [Leaflet](https://leafletjs.com/) - Open-source JavaScript library for mobile-friendly interactive maps
 - [Sass](https://sass-lang.com) - CSS extension language
 - [Parcel](https://parceljs.org/) - Build tool for the project
 - [Prettier](https://prettier.io/) - Code formatter
@@ -48,5 +47,6 @@ for mobile-friendly interactive maps
 - [Stylelint](https://stylelint.io) - CSS linter
 
 ### Used APIs
+
 - [OpenStreetMap](https://www.openstreetmap.org) - Interactive maps API (Used by Leaflet)
 - [ipgeolocation](https://app.ipgeolocation.io) - Provides location information for any IPv4/IPv6 address or domain name.
