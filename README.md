@@ -1,12 +1,12 @@
 # ip-address-tracker
 
 :globe_with_meridians::mag::earth_africa: An app that allows you to track and pull information from any IP address
+[Live Demo](https://romanstashuk.github.io/ip-address-tracker/)
 
 ## Table of contents
 
 - [Overview](#overview)
   - [Features](#features)
-  - [Links](#links)
   - [Usage](#usage)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -22,10 +22,6 @@ Users can:
 - See hover states for all interactive elements on the page
 - See their own IP address on the map on the initial page load
 - Search for any IP addresses or domains and see the key information and location
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 
 ### Usage
 
