@@ -29,8 +29,9 @@ Users should be able to:
 
 ### Usage
 
-- `npm run start`
-- `npm run build`
+- `npm run start` Runs the app in the development mode.
+  Open http://localhost:1234 to view it in your browser.
+- `npm run build` Builds the app for production to the dist folder.
 
 ## My process
 
