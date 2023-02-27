@@ -18,39 +18,42 @@
   <section class="app__top-part">
     <div class="container">
       <h1 class="app__title">IP Address Tracker</h1>
-      <form action="" class="app__form form" autocomplete="off">
-        <label class="visually-hidden" for="ip-address"></label>
-        <input type="text" class="form__input" id="ip-address" placeholder="Search for any IP address or fomain">
-        <button type="submit" class="form__submit" aria-label="search address"></button>
+      <form class="app__form form" id="form" autocomplete="off">
+        <label class="visually-hidden" for="ip-address-input"></label>
+        <input type="text" class="form__input" id="ip-address-input" name="ip" placeholder="Search for any IP address">
+        <button type="submit" class="form__submit" id="form-submit"
+          aria-label="search information about IP address"></button>
       </form>
     </div>
   </section>
 
   <section class="app__info info">
     <h2 class="visually-hidden">Information about IP address</h2>
-    <ul class="info__list">
+    <ul class="info__list" id="info">
       <li class="info__list-item">
         <h3 class="info__title">IP address</h3>
-        <p class="info__text">3428476239487</p>
+        <p class="info__text" id="ip"></p>
       </li>
       <li class="info__list-item">
         <h3 class="info__title">Location</h3>
-        <p class="info__text">dafasdfasdf</p>
+        <p class="info__text" id="location"></p>
       </li>
       <li class="info__list-item">
         <h3 class="info__title">Timezone</h3>
-        <p class="info__text">asdfasdf</p>
+        <p class="info__text" id="timezone"></p>
       </li>
       <li class="info__list-item">
         <h3 class="info__title">ISP</h3>
-        <p class="info__text">UTCdasfasf</p>
+        <p class="info__text" id="isp"></p>
       </li>
     </ul>
   </section>
 
-  <section class="map"></section>
+  <section class="map">
+    <div class="map__content" id="map"></div>
+  </section>
 
-  <script src="./index.js"></script>
+  <script src="./index.js" type="module"></script>
 </body>
 
 </html>
