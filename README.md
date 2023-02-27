@@ -5,7 +5,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Features](#features)
   - [Links](#links)
   - [Usage](#usage)
 - [My process](#my-process)
@@ -14,9 +14,9 @@
 
 ## Overview
 
-### The challenge
+### Features
 
-Users should be able to:
+Users can:
 
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements on the page
@@ -39,6 +39,8 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Mobile-first workflow
+- [Leaflet](https://leafletjs.com/) -an open-source JavaScript library
+for mobile-friendly interactive maps
 - [Sass](https://sass-lang.com) - CSS extension language
 - [Parcel](https://parceljs.org/) - Build tool for the project
 - [Prettier](https://prettier.io/) - Code formatter
@@ -46,6 +48,5 @@ Users should be able to:
 - [Stylelint](https://stylelint.io) - CSS linter
 
 ### Used APIs
-
-- [ipgeolocation](https://app.ipgeolocation.io) - Provides location information for any IPv4/IPv6 address or domain name..
-- [Example resource 2](https://www.example.com) -
+- [OpenStreetMap](https://www.openstreetmap.org) - Interactive maps API (Used by Leaflet)
+- [ipgeolocation](https://app.ipgeolocation.io) - Provides location information for any IPv4/IPv6 address or domain name.
