@@ -39,7 +39,7 @@ Users can:
 
 - Semantic HTML5 markup
 - Mobile-first workflow
-- [Leaflet](https://leafletjs.com/) -an open-source JavaScript library
+- [Leaflet](https://leafletjs.com/) - Open-source JavaScript library
 for mobile-friendly interactive maps
 - [Sass](https://sass-lang.com) - CSS extension language
 - [Parcel](https://parceljs.org/) - Build tool for the project
