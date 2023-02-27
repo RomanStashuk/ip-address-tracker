@@ -1,5 +1,8 @@
 {
   "plugins": ["stylelint-scss"],
   "extends": ["stylelint-config-recommended-scss"],
-  "ignoreFiles": ["dist/"]
+  "ignoreFiles": ["dist/", "src/sass/base/normalize.css"],
+  "rules": {
+    "scss/no-global-function-names": false
+  }
 }
