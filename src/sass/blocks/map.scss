@@ -1,5 +1,19 @@
 .map {
+  position: relative;
   width: 100%;
-  min-height: calc(100vh - 240px);
+  min-height: calc(100vh - $top-part-height--mobile);
   background: url('../img/map.png');
+
+  @include for-tablet-up {
+    min-height: calc(100vh - $top-part-height);
+  }
+}
+
+.map__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
 }
