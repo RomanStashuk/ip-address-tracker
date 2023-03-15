@@ -12,8 +12,7 @@ class MapComponent extends Component {
 
   init() {
     this.map = L.map(this.$el, {
-      center: [51.5, -0.09],
-      zoom: 8,
+      zoom: 10,
       zoomControl: false,
     });
 
